@@ -1,0 +1,411 @@
+﻿   Qt/MSBuild: 3.4.1.0
+  Reading Qt configuration (D:/Qt/6.10.2/msvc2022_64/bin/qmake)
+   Qt: 6.10.2
+  GroupWidget.cpp
+  MyWidget.cpp
+  main.cpp
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x6b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x6c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x6d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x72 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x73 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x75 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x78 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xbd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xd6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xd8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xda 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xdb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xdc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xdf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xe0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xe2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xe7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xe8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xe9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xed 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xee 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xf0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xf1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xf2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0xf4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1c4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1c6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1c7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1c8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1ca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1cb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1cd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1ce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1cf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1da 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1db 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1dd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1de 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1e0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1e2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1e7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1e8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1e9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1eb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1ee 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.cpp(1,1): warning C4828: 文件包含在偏移 0x1ef 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x70 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x73 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x75 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x81 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x82 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x89 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x90 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x91 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x92 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x96 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x70 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x73 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x75 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x81 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x82 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x89 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x90 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x91 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x92 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x96 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1b8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1be 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1ca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1ea 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x21f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x223 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x224 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x225 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x226 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x228 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x22c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“MyWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1b8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1be 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1bf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1c9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1ca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1ea 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1f8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x1fd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x21f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x223 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x224 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x225 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x226 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x228 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+D:\Myself-Project\Qt\Qt\SelfPainter.h(1,1): warning C4828: 文件包含在偏移 0x22c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“main.cpp”)
+  
+  moc_GroupWidget.cpp
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x70 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x73 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x75 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x7f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x81 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x82 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x89 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x8e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x90 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x91 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x92 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+D:\Myself-Project\Qt\Qt\GroupWidget.h(1,1): warning C4828: 文件包含在偏移 0x96 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  (编译源文件“x64/Debug/qt/moc/moc_GroupWidget.cpp”)
+  
+  Qt.vcxproj -> D:\Myself-Project\Myself-Project-Solution\x64\Debug\Qt.exe
