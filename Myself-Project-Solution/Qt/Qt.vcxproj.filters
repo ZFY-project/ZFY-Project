@@ -15,13 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Renderer.h">
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfPainter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <QtMoc Include="MyWidget.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+    <QtMoc Include="GroupWidget.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+    <QtMoc Include="SelfPainter.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+    <QtMoc Include="WorkTask.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
