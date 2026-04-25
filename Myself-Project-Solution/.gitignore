@@ -1,0 +1,32 @@
+# ========== VS编译垃圾输出 ==========
+/x64/
+/Debug/
+/Release/
+*.exe
+*.pdb
+*.obj
+*.ilk
+*.log
+*.tlog
+
+# ========== VS个人本地缓存配置 绝不上传Git ==========
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.vcxproj.user
+
+# ========== Qt自动生成临时中间文件 ==========
+moc_*.cpp
+uic_*.h
+rcc_*.cpp
+qrc_*.cpp
+
+# ========== OpenCV临时文件 ==========
+*.xml
+*.yaml
+
+# ========== 系统无用垃圾 ==========
+Thumbs.db
+.DS_Store
