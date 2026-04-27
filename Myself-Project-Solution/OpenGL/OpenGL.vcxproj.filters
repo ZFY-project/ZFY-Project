@@ -18,9 +18,27 @@
     <ClInclude Include="Renderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyOpenGl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenGl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

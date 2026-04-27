@@ -2,13 +2,13 @@
 #include <QApplication>
 #include<SelfPainter.h>
 #include"GroupWidget.h"
+#include"MyGLWidget.h"
 
 int main(int argc, char* argv[])
 {
     QApplication a(argc, argv);
-    MyWidget w;
+    MyGLWidget w;
     w.show();
-    GroupWidget x;
-    x.show();
+
     return a.exec();
 }

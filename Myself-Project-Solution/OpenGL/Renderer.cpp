@@ -3,10 +3,14 @@
 #include <cmath>
 
 Renderer::Renderer(int w, int h)
-	:m_width(w),m_height(h)
+	:m_width(w), m_height(h)
 {
 	int totalSize = m_width * m_height * 3;//总字节数内存（你要画一幅画：算你需要多大的纸）
 	m_buffer = new unsigned char[totalSize];//为画布动态申请内存（去商店买一张这么大的白纸）
+}
+
+Renderer::~Renderer()
+{
 }
 
 void Renderer::clear()
@@ -31,24 +35,18 @@ void Renderer::putPixel(int x, int y, Color color)
 
 void Renderer::drawLine(int x1, int y1, int x2, int y2, Color color)
 {
-	auto dx = x2 - x1;
-	auto dy = y2 - y1;
+	int dx = abs(x2 - x1);
+	int dy = abs(y2 - y1);
+	int sx = x1 < x2 ? 1 : -1;
+	int sy = y1 < y2 ? 1 : -1;
+	int err = dx - dy;
 
-	int steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
-
-	float xInc = dx / (float)steps;
-	float yInc = dy / (float)steps;
-
-	// 从起点开始走
-	float x = x1;
-	float y = y1;
-
-	// 一步一步画点
-	for (int i = 0; i <= steps; i++)
-	{
-		putPixel((int)x, (int)y, color);
-		x += xInc;
-		y += yInc;
+	while (true) {
+		putPixel(x1, y1, color);
+		if (x1 == x2 && y1 == y2) break;
+		int e2 = 2 * err;
+		if (e2 > -dy) { err -= dy; x1 += sx; }
+		if (e2 < dx) { err += dx; y1 += sy; }
 	}
 }
 
@@ -56,8 +54,8 @@ Vec3 Renderer::rotate(Vec3 point, Angle angle)
 {
 	//转弧度
 	float radX = angle.pitch * M_PI / 180.0f;
-	float radY = angle.roll * M_PI / 180.0f;
-	float radZ = angle.yaw * M_PI / 180.0f;
+	float radY = angle.yaw * M_PI / 180.0f;
+	float radZ = angle.roll * M_PI / 180.0f;
 
 	float sx = sin(radX), cx = cos(radX);
 	float sy = sin(radY), cy = cos(radY);
@@ -84,8 +82,25 @@ Vec3 Renderer::rotate(Vec3 point, Angle angle)
 	return { x,y,z };
 }
 
-Vec2 Renderer::project(const Vec3 &point)
+Vec2 Renderer::project(Vec3 point)
 {
+	//固定参数
+	float focalLength = 800.0f;//焦距
+	float nearClip = 0.1f;
+	//深度判断
+	if (point.z < nearClip)
+	{
+		return{ 0,0 };
+	}
+	float scale = focalLength / point.z;//放大倍数
+	auto x = point.x * scale;
+	auto y = point.y * scale;
 
-	return Vec2();
+	//翻转y轴(3D 数学世界：Y 轴向上是正,电脑屏幕：Y轴向下是正,如果不翻转你画出来的3D物体会 上下颠倒、头朝下。)
+	y = -y;
+
+	//把点从屏幕中心 → 移到正确的像素位置
+	x += m_width / 2.0f;
+	y += m_height / 2.0f;
+	return { x,y };
 }

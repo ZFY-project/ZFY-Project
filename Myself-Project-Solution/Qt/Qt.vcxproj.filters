@@ -30,6 +30,9 @@
     <ClCompile Include="WorkTask.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MyGLWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -47,6 +50,9 @@
       <Filter>头文件</Filter>
     </QtMoc>
     <QtMoc Include="WorkTask.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+    <QtMoc Include="MyGLWidget.h">
       <Filter>头文件</Filter>
     </QtMoc>
   </ItemGroup>

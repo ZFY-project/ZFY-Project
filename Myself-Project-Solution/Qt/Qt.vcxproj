@@ -163,6 +163,7 @@
   <ItemGroup>
     <ClCompile Include="GroupWidget.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyGLWidget.cpp" />
     <ClCompile Include="MyWidget.cpp" />
     <ClCompile Include="SelfPainter.cpp" />
     <ClCompile Include="WorkTask.cpp" />
@@ -172,6 +173,7 @@
     <QtMoc Include="SelfPainter.h" />
     <QtMoc Include="MyWidget.h" />
     <QtMoc Include="GroupWidget.h" />
+    <QtMoc Include="MyGLWidget.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
