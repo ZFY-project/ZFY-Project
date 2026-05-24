@@ -28,6 +28,13 @@ MyGLWidget::~MyGLWidget()
 void MyGLWidget::initializeGL()
 {
     initializeOpenGLFunctions();// ✅ 必须：初始化OpenGL函数
+
+    qDebug() << "OpenGL Version:"
+        << reinterpret_cast<const char*>(glGetString(GL_VERSION));
+
+    qDebug() << "GLSL Version:"
+        << reinterpret_cast<const char*>(glGetString(GL_SHADING_LANGUAGE_VERSION));
+
     glEnable(GL_DEPTH_TEST);//开启深度测试（3D必须）
 
     // ===== 创建VAO/VBO（必须）=====

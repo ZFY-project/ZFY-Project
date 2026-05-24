@@ -161,19 +161,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DragPaint.cpp" />
+    <ClCompile Include="EdgeItem.cpp" />
     <ClCompile Include="GroupWidget.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyGLWidget.cpp" />
     <ClCompile Include="MyWidget.cpp" />
+    <ClCompile Include="NodeItem.cpp" />
+    <ClCompile Include="SegmentWidget.cpp" />
     <ClCompile Include="SelfPainter.cpp" />
     <ClCompile Include="WorkTask.cpp" />
+    <ClCompile Include="WorkWidget.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="SegmentWidget.h" />
+    <QtMoc Include="WorkWidget.h" />
     <QtMoc Include="WorkTask.h" />
     <QtMoc Include="SelfPainter.h" />
     <QtMoc Include="MyWidget.h" />
     <QtMoc Include="GroupWidget.h" />
     <QtMoc Include="MyGLWidget.h" />
+    <QtMoc Include="DragPaint.h" />
+    <QtMoc Include="EdgeItem.h" />
+    <QtMoc Include="NodeItem.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

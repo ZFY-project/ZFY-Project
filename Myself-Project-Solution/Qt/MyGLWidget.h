@@ -6,6 +6,7 @@
 #include<QOpenGLShaderProgram>
 #include<QOpenGLFunctions_3_3_Core>
 #include <vector>
+#include<QDebug>
 class MyGLWidget :
     public QOpenGLWidget
     , protected QOpenGLFunctions_3_3_Core
