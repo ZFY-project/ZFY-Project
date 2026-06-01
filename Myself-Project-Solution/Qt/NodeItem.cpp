@@ -1,29 +1,48 @@
-#include "NodeItem.h"
+ï»¿#include "NodeItem.h"
 #include <QPainter>
-//×Ô¶¨Òå½ÚµãÀà
+#include <QStyleOptionGraphicsItem>
+//è‡ªå®šä¹‰å›¾å—ç±»
 NodeItem::NodeItem(QGraphicsItem* parent)
 	:QGraphicsObject(parent)
 {
 	setFlag(QGraphicsItem::ItemIsMovable);
 	setFlag(QGraphicsItem::ItemIsSelectable);
-	setFlag(QGraphicsItem::ItemSendsGeometryChanges); // Î»ÖÃ±ä»¯·¢ĞÅºÅ->ÓÃÓÚ´¥·¢itemChangeº¯Êı
+	setFlag(QGraphicsItem::ItemSendsGeometryChanges); // ä½ç½®å˜åŒ–å‘ä¿¡å·->ç”¨äºè§¦å‘itemChangeå‡½æ•°
 }
 
 QRectF NodeItem::boundingRect() const
 {
-	return QRectF(-25, -25, 50, 50	); // ½ÚµãµÄ°üÎ§ºĞ£¬¾ö¶¨µã»÷·¶Î§
+	return QRectF(-25, -25, 80, 50	); // èŠ‚ç‚¹çš„åŒ…å›´ç›’ï¼Œå†³å®šç‚¹å‡»èŒƒå›´
 }
 
 void NodeItem::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget)
 {
 	painter->setBrush(Qt::lightGray);
-	painter->drawEllipse(boundingRect()); // »­¸öÔ²µ±½Úµã
+	painter->drawRect(boundingRect()); // ç”»ä¸ªçŸ©å½¢å½“æ¨¡å—ä¸»ä½“
+	painter->drawEllipse(QRectF(-28, -3, 6, 6)); //å·¦å¼•è„šå°åœ†
+	painter->drawEllipse(QRectF(52, -3, 6, 6));  //å³å¼•è„šå°åœ†
+	//é€‰ä¸­ï¼šçº¢è‰²ç²—è¾¹æ¡†
+	if (option->state & QStyle::State_Selected)
+	{
+		painter->setPen(QPen(Qt::red, 3)); // çº¢è‰²ã€3åƒç´ ç²—
+		painter->drawRect(boundingRect());
+	}
+}
+
+QPointF NodeItem::getLeftPin() const
+{
+	return mapToScene(QPointF(-25, 0));
+}
+
+QPointF NodeItem::getRightPin() const
+{
+	return mapToScene(QPointF(55, 0));
 }
 
 QVariant NodeItem::itemChange(GraphicsItemChange change, const QVariant& value)
 {
 	if (change == ItemPositionChange && scene()) {
-		emit positionChanged(); // Î»ÖÃ±äÁË¾Í·¢ĞÅºÅ
+		emit positionChanged(); // ä½ç½®å˜äº†å°±å‘ä¿¡å·
 	}
 	return QGraphicsObject::itemChange(change, value);
 }

@@ -10,9 +10,13 @@ SegmentWidget::SegmentWidget(QWidget* parent):QWidget(parent)
 	connect(btn_addNode, &QPushButton::clicked, this, &SegmentWidget::onAddNode);
 	btn_connect = new QPushButton("connectNodes", this);
 	connect(btn_connect, &QPushButton::clicked, this, &SegmentWidget::onStartConnect);
+
 	m_scene = new QGraphicsScene(this);
 	m_view = new QGraphicsView(m_scene);
+	m_view->resize(640, 480);
 	m_view->setRenderHint(QPainter::Antialiasing);//抗锯齿
+	m_view->setViewportUpdateMode(QGraphicsView::FullViewportUpdate);//
+
 	QVBoxLayout* layout = new QVBoxLayout(this);
 	layout->addWidget(btn_addNode);
 	layout->addWidget(btn_connect);
@@ -86,7 +90,9 @@ bool SegmentWidget::eventFilter(QObject* obj, QEvent* event)
 				{
 					// 创建连线
 					EdgeItem* edge = new EdgeItem(firstNode, clickedNode);
+					
 					m_scene->addItem(edge);
+					//m_scene->update();
 
 					// 重置
 					firstNode = nullptr;
@@ -108,6 +114,16 @@ void SegmentWidget::keyPressEvent(QKeyEvent* event)
 		isConnectted = false;
 		firstNode = nullptr;
 		m_view->setCursor(Qt::ArrowCursor);
+		return;
+	}
+	else if (event->key() == Qt::Key_Delete)
+	{
+		QList<QGraphicsItem*> delList = m_scene->selectedItems();
+		for (auto item : delList)
+		{
+			m_scene->removeItem(item);
+			delete item;
+		}
 		return;
 	}
 	return QWidget::keyPressEvent(event);
